@@ -1,0 +1,11 @@
+{
+  "name": "test-copilot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gabrielcarmo-bkly/test-copilot.git",
+  "author": "Gabriel Carmo <luiz.carmo1@bankly.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

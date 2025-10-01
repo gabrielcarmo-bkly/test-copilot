@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Generate only the commit message, no explanations or descriptions"
+    },
+    {
+      "text": "Use imperative mood (Add, Fix, Update, Remove, etc.)"
+    },
+    {
+      "text": "Maximum 50 characters total"
+    },
+    {
+      "text": "Format: type(scope): description - types: feat,fix,docs,style,refactor,test,chore,ci,perf,build"
+    }
+  ]
+}
