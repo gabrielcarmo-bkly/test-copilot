@@ -60,7 +60,6 @@
 
 ## Performance
 
-- Avoid unnecessary re-renders in React components
 - Use efficient data structures and algorithms
 - Implement proper caching where appropriate
 - Optimize database queries
