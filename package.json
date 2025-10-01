@@ -10,7 +10,7 @@
     "start": "node dist/index.js",
     "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "start:debug": "ts-node-dev --debug --respawn --transpile-only src/index.ts",
-    "start:prod": "node dist/index",
+    "start:prod": "node dist/index.js",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
