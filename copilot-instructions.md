@@ -1,13 +1,31 @@
 # Copilot Instructions
 
+## Project Configuration
+
+- Use TypeScript with strict mode enabled
+- Follow NestJS architectural patterns and conventions
+- Use decorators for dependency injection and metadata
+- Implement proper module structure with feature modules
+
 ## Code Style and Formatting
 
-- Use consistent indentation (2 spaces for JavaScript/TypeScript, 4 spaces for Python)
-- Follow ESLint/Prettier configurations if present
-- Use meaningful variable and function names
-- Prefer const over let, avoid var in JavaScript
+- Use TypeScript with strict type checking
+- Follow ESLint configuration (extends @nestjs/eslint-config-nestjs)
+- Use Prettier for consistent formatting (single quotes, semicolons, trailing commas)
+- Prefer 2-space indentation for TypeScript files
+- Use meaningful variable and function names with proper TypeScript types
+- Prefer const over let, never use var
 - Use arrow functions for callbacks and short functions
-- Always use semicolons in JavaScript/TypeScript
+- Always use semicolons and single quotes
+
+## TypeScript Conventions
+
+- Use explicit types for function parameters and return types
+- Prefer interfaces over type aliases for object shapes
+- Use enums for constants with multiple related values
+- Implement proper generic types where applicable
+- Use utility types (Partial, Pick, Omit) when appropriate
+- Avoid 'any' type - use proper typing or 'unknown'
 
 ## Documentation
 
