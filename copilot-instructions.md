@@ -10,7 +10,7 @@
 ## Code Style and Formatting
 
 - Use TypeScript with strict type checking
-- Follow ESLint configuration (extends @nestjs/eslint-config-nestjs)
+- Follow ESLint configuration (extends @typescript-eslint)
 - Use Prettier for consistent formatting (single quotes, semicolons, trailing commas)
 - Prefer 2-space indentation for TypeScript files
 - Use meaningful variable and function names with proper TypeScript types
